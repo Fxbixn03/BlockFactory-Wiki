@@ -999,3 +999,12 @@ machineInfo.noInputs = Eingang: leer
 machineInfo.outputs = Ausgang: {list}
 machineInfo.noOutputs = Ausgang: leer
 machineInfo.stack = {count}× {item}
+
+# Kartenebenen (Ideen)
+mapLayers.title = Kartenebenen
+mapLayers.info = Auf der Weltkarte für alle in dieser Welt. Grün: an.
+mapLayers.noise = Lärm
+mapLayers.power = Stromleitungen
+mapLayers.nests = Nester
+mapLayers.ruins = Ruinen
+commands.maplayers.desc = Öffnet die Kartenebenen: Lärm, Stromleitungen, Nester, Ruinen
