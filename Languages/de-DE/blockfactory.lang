@@ -501,6 +501,7 @@ terminal.dark = Das Terminal ist dunkel. Der Bunker braucht Strom: Schließ den 
 terminal.records = Aufzeichnungen
 terminal.scenes = Szenen
 terminal.noScenes = Noch keine Szenen gesehen.
+terminal.scene.C-00 = Die Alten
 terminal.scene.C-01 = Erwachen
 terminal.scene.C-02 = Erster Blick
 terminal.scene.C-07 = Licht im Bunker
