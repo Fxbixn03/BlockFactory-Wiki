@@ -9,8 +9,8 @@ and a GitHub account are enough.
 - **Complete or improve** an existing translation: open a pull request that changes its file.
 - **Report a mistake** in any language: open an issue with the key (the part before the `=`) and what is wrong.
 
-`en-US` and `de-DE` are copied from the mod with every release, so a pull request that changes them would be
-overwritten. For these two, please open an issue instead.
+`en-US` is copied from the mod with every release, so a pull request that changes it would be overwritten. For
+English, please open an issue instead. All other languages, `de-DE` included, are edited right here.
 
 ## Before you start
 

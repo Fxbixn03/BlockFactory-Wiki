@@ -33,9 +33,9 @@ Each line of a `.lang` file is one text: `key = text`. Only the text after the `
 
 - BlockFactory shows its texts in the language selected in the Hytale client. A line that is missing in that
   language falls back to English.
-- Translations from this repository are copied into the mod by hand and ship with the next release.
-- `en-US` and `de-DE` are copied from the mod with each release. They always describe the latest released
-  version.
+- The mod includes this repository directly: every translation merged here ships with the next release.
+- `en-US` is copied from the mod with each release and always describes the latest released version. All other
+  languages, `de-DE` included, live only here.
 
 ## Translators
 
