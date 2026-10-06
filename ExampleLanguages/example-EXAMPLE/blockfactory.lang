@@ -956,6 +956,7 @@ terminal.scene.C-06 =
 terminal.scene.C-10 = 
 terminal.scene.C-11 = 
 cutscene.milestoneElsewhere = 
+tip.header = 
 tip.welcome = 
 tip.noFuel = 
 tip.noPower = 
