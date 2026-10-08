@@ -978,27 +978,6 @@ commands.craftqueue.hint = /craftqueue --cancel cancels the last job, --all ever
 commands.craftqueue.cancelledLast = Last handcrafting job cancelled, ingredients returned.
 commands.craftqueue.cancelledAll = All handcrafting jobs cancelled, ingredients returned.
 
-# Musik (E-71, aus tools/music_tracks.py)
-music.BF_Track_Ancient_Halls.name = Ancient Halls
-music.BF_Track_Busy_Belts.name = Busy Belts
-music.BF_Track_Cogwheel_Waltz.name = Cogwheel Waltz
-music.BF_Track_Conveyor_Jig.name = Conveyor Jig
-music.BF_Track_Copper_Valley.name = Copper Valley
-music.BF_Track_Ember_Hearth.name = Ember Hearth
-music.BF_Track_Factory_Loop.name = Factory Loop
-music.BF_Track_Forgotten_Ruins.name = Forgotten Ruins
-music.BF_Track_Harvest_Gears.name = Harvest Gears
-music.BF_Track_Last_Bastion.name = Last Bastion
-music.BF_Track_Moonlit_Lake.name = Moonlit Lake
-music.BF_Track_Morning_Shift.name = Morning Shift
-music.BF_Track_Mountain_Pass.name = Mountain Pass
-music.BF_Track_Sky_Citadel.name = Sky Citadel
-music.BF_Track_Starfall.name = Starfall
-music.BF_Track_Steam_Picnic.name = Steam Picnic
-music.BF_Track_Sunny_Assembly.name = Sunny Assembly
-music.BF_Track_Tidal_Sanctum.name = Tidal Sanctum
-music.BF_Track_Verdant_Dawn.name = Verdant Dawn
-music.BF_Track_Whispering_Grove.name = Whispering Grove
 
 # Status oben links (Ideen)
 status.header = Research & towers
@@ -1037,3 +1016,17 @@ commands.maplayers.desc = Opens the map layers: noise, power lines, nests, ruins
 # Underground Pipes T2, T3 (Ideen)
 items.BF_Underground_Pipe_T2.name = Underground Pipe T2
 items.BF_Underground_Pipe_T3.name = Underground Pipe T3
+
+# Musik (E-71, aus tools/music_tracks.py)
+music.BF_Track_Beyond_the_Event_Horizon_1.name = Beyond the Event Horizon 1
+music.BF_Track_Beyond_the_Event_Horizon_2.name = Beyond the Event Horizon 2
+music.BF_Track_Clockwork_Flow_1.name = Clockwork Flow 1
+music.BF_Track_Conveyor_Belt_Pulse_1.name = Conveyor Belt Pulse 1
+music.BF_Track_Cozy_Tinkering_1.name = Cozy Tinkering 1
+music.BF_Track_Late_Level_Load_1.name = Late Level Load 1
+music.BF_Track_Main_Menu_1.name = Main Menu 1
+music.BF_Track_Main_Menu_2.name = Main Menu 2
+music.BF_Track_Mission_Complete_1.name = Mission Complete 1
+music.BF_Track_Subroutine_Warmth_1.name = Subroutine Warmth 1
+music.BF_Track_Subroutine_Warmth_2.name = Subroutine Warmth 2
+music.BF_Track_Uncharted_Horizons_1.name = Uncharted Horizons 1

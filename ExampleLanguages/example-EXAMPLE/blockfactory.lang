@@ -978,27 +978,6 @@ commands.craftqueue.hint =
 commands.craftqueue.cancelledLast = 
 commands.craftqueue.cancelledAll = 
 
-# Musik (E-71, aus tools/music_tracks.py)
-music.BF_Track_Ancient_Halls.name = 
-music.BF_Track_Busy_Belts.name = 
-music.BF_Track_Cogwheel_Waltz.name = 
-music.BF_Track_Conveyor_Jig.name = 
-music.BF_Track_Copper_Valley.name = 
-music.BF_Track_Ember_Hearth.name = 
-music.BF_Track_Factory_Loop.name = 
-music.BF_Track_Forgotten_Ruins.name = 
-music.BF_Track_Harvest_Gears.name = 
-music.BF_Track_Last_Bastion.name = 
-music.BF_Track_Moonlit_Lake.name = 
-music.BF_Track_Morning_Shift.name = 
-music.BF_Track_Mountain_Pass.name = 
-music.BF_Track_Sky_Citadel.name = 
-music.BF_Track_Starfall.name = 
-music.BF_Track_Steam_Picnic.name = 
-music.BF_Track_Sunny_Assembly.name = 
-music.BF_Track_Tidal_Sanctum.name = 
-music.BF_Track_Verdant_Dawn.name = 
-music.BF_Track_Whispering_Grove.name = 
 
 # Status oben links (Ideen)
 status.header = 
@@ -1037,3 +1016,17 @@ commands.maplayers.desc =
 # Underground Pipes T2, T3 (Ideen)
 items.BF_Underground_Pipe_T2.name = 
 items.BF_Underground_Pipe_T3.name = 
+
+# Musik (E-71, aus tools/music_tracks.py)
+music.BF_Track_Beyond_the_Event_Horizon_1.name = 
+music.BF_Track_Beyond_the_Event_Horizon_2.name = 
+music.BF_Track_Clockwork_Flow_1.name = 
+music.BF_Track_Conveyor_Belt_Pulse_1.name = 
+music.BF_Track_Cozy_Tinkering_1.name = 
+music.BF_Track_Late_Level_Load_1.name = 
+music.BF_Track_Main_Menu_1.name = 
+music.BF_Track_Main_Menu_2.name = 
+music.BF_Track_Mission_Complete_1.name = 
+music.BF_Track_Subroutine_Warmth_1.name = 
+music.BF_Track_Subroutine_Warmth_2.name = 
+music.BF_Track_Uncharted_Horizons_1.name = 
