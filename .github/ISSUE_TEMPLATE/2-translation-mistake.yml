@@ -1,0 +1,46 @@
+name: Report a translation mistake
+description: A text in a language other than English is wrong, missing, cut off or hard to understand.
+title: "[xx-XX] "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the report! For a mistake in the English text, please use "Report a problem with an English text" instead.
+        Change the title to the language code and a short description, for example `[de-DE] Belt name too long in the tooltip`.
+  - type: input
+    id: code
+    attributes:
+      label: Language code
+      placeholder: de-DE
+    validations:
+      required: true
+  - type: input
+    id: key
+    attributes:
+      label: Key
+      description: The part before the `=` in the `.lang` file. If you don't know it, describe where you saw the text below.
+      placeholder: items.BF_Belt_T1.name
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: What the game shows now.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested text
+      description: What it should say instead, if you know it.
+  - type: textarea
+    id: where
+    attributes:
+      label: Where in the game?
+      description: Window, item, message or command where the text appears. A screenshot helps a lot.
+  - type: input
+    id: version
+    attributes:
+      label: BlockFactory version
+      description: Shown in the mod list of your world settings.
+      placeholder: 1.0.0

@@ -1,0 +1,35 @@
+name: Report a problem with an English text
+description: A typo, unclear wording or a missing text in English (en-US). English is copied from the mod, so it is fixed there, not with a pull request.
+title: "[en-US] "
+labels: ["english text"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        `Languages/en-US` is copied from the mod with every release, so a pull request that changes it would be overwritten. Report it here and it will be fixed in the mod.
+  - type: input
+    id: key
+    attributes:
+      label: Key
+      description: The part before the `=` in the `.lang` file. If you don't know it, describe where you saw the text below.
+      placeholder: machine.status.NO_FUEL
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested text
+  - type: textarea
+    id: where
+    attributes:
+      label: Where in the game?
+      description: Window, item, message or command where the text appears. A screenshot helps a lot.
+  - type: input
+    id: version
+    attributes:
+      label: BlockFactory version
+      placeholder: 1.0.0

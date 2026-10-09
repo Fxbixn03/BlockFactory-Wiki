@@ -1,0 +1,47 @@
+name: Start a new language
+description: Tell others that you are working on a language, so nobody starts the same one twice.
+title: "[xx-XX] Language translation"
+labels: ["new language"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for translating BlockFactory! Please check the open issues and pull requests first: maybe someone is already working on your language and you can join them.
+        Change the title to your language code and language, for example `[fr-FR] French translation`.
+  - type: input
+    id: code
+    attributes:
+      label: Language code
+      description: Exactly as the Hytale client uses it (see "Folder name" in CONTRIBUTING.md).
+      placeholder: fr-FR
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: French
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: How much do you plan to translate?
+      options:
+        - Everything
+        - A first part, more later
+        - Not sure yet
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Questions, terms you are unsure about, or people who help you.
+  - type: checkboxes
+    id: read
+    attributes:
+      label: Before you start
+      options:
+        - label: I have read CONTRIBUTING.md.
+          required: true

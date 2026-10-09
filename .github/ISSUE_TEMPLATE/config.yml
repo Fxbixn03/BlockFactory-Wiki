@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: How to contribute a translation
+    url: https://github.com/Fxbixn03/BlockFactory-Wiki/blob/main/CONTRIBUTING.md
+    about: Read this first. It explains folder names, the rules for the file and the pull request checklist.

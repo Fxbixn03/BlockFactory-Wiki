@@ -1,0 +1,10 @@
+name: Something else
+description: A question or idea about the translations or this repository.
+labels: ["question"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What is it about?
+    validations:
+      required: true

@@ -1,4 +1,4 @@
-# BlockFactory, Referenzsprache en-US (E-24). Schluessel: blockfactory.<Zeile>
+# BlockFactory, reference language en-US. Keys: blockfactory.<line>
 items.BF_Field_Iron.name = Iron Ore Field
 items.BF_Field_Copper.name = Copper Ore Field
 items.BF_Field_Gold.name = Gold Ore Field
@@ -192,7 +192,7 @@ items.BF_Copper_Plate.name = Copper Plate
 items.BF_Stone_Brick.name = Stone Brick
 items.BF_Iron_Gear.name = Iron Gear
 recipeBrowser.fuel = Fuel value: {mj} MJ
-# Forschungen (Region 4, Schritt 4; Daten unter Server/BlockFactory/Research)
+# Research (data under Server/BlockFactory/Research)
 research.BF_Research_Steam_Power.name = Steam Power
 research.BF_Research_Steam_Power.unlocks = Water Pump, Water Boiler, Steam Generator, Small Power Pole, Auto Drill, Lamp
 research.BF_Research_Automation.name = Automation
@@ -547,7 +547,7 @@ terminal.record.4.text = The steppe used to be green. I keep a handful of seeds 
 terminal.record.5 = Last entry
 terminal.record.5.text = If you read this, the power is back. That means somebody built it. Good. Start small. The old knowledge will come back, one scroll at a time.
 
-# Warnungen und Karte (Region 6, Schritt 9)
+# Warnings and map
 warnings.attack = Your factory is under attack!
 warnings.noAmmo = A Gun Tower is out of ammunition
 warnings.trainStuck = A train is stuck (no fuel or no path)
@@ -584,7 +584,7 @@ map.nestLarge = Large Nest
 map.attack = Attack
 cutscene.firstAttackElsewhere = The first attack on your factory has begun. Watch the scene at the bunker terminal.
 
-# Fahrzeuge, Machbarkeitstest (Region 6, Schritt 11)
+# Vehicles
 npc.BF_Test_Buggy.name = Test Buggy
 commands.buggy.desc = Places a test buggy in front of you (vehicle test)
 commands.buggy.spawned = A test buggy stands in front of you. Use it to get in.
@@ -1004,7 +1004,7 @@ commands.craftqueue.cancelledLast = Last handcrafting job cancelled, ingredients
 commands.craftqueue.cancelledAll = All handcrafting jobs cancelled, ingredients returned.
 
 
-# Status oben links (Ideen)
+# Status panel, top left
 status.header = Research & towers
 status.gob = Gob points
 status.gol = Gol points
@@ -1014,7 +1014,7 @@ status.shots = {shots} shots
 status.shotsEmpty = {shots} shots ({empty} empty)
 status.noTowers = no towers
 
-# Anzeige beim Draufschauen auf eine Maschine (Ideen)
+# Info panel when looking at a machine
 machineInfo.line = {text}
 machineInfo.nothing = Not making anything
 machineInfo.product = Making {item} – {seconds} s left
@@ -1029,7 +1029,7 @@ machineInfo.outputs = Output: {list}
 machineInfo.noOutputs = Output: empty
 machineInfo.stack = {count}× {item}
 
-# Kartenebenen (Ideen)
+# Map layers
 mapLayers.title = Map layers
 mapLayers.info = Shown on the world map for everyone in this world. Green: on.
 mapLayers.noise = Noise
@@ -1038,11 +1038,11 @@ mapLayers.nests = Nests
 mapLayers.ruins = Ruins
 commands.maplayers.desc = Opens the map layers: noise, power lines, nests, ruins
 
-# Underground Pipes T2, T3 (Ideen)
+# Underground Pipes T2, T3
 items.BF_Underground_Pipe_T2.name = Underground Pipe T2
 items.BF_Underground_Pipe_T3.name = Underground Pipe T3
 
-# Musik (E-71, aus tools/music_tracks.py)
+# Music (E-71, written by tools/music_tracks.py)
 music.BF_Track_Beyond_The_Event_Horizon_1.name = Beyond The Event Horizon 1
 music.BF_Track_Beyond_The_Event_Horizon_2.name = Beyond The Event Horizon 2
 music.BF_Track_Clockwork_Flow_1.name = Clockwork Flow 1

@@ -1,4 +1,4 @@
-# BlockFactory, Deutsch de-DE (E-24). Referenz ist en-US. Schluessel: blockfactory.<Zeile>
+# BlockFactory, German de-DE. The reference is en-US. Keys: blockfactory.<line>
 items.BF_Field_Iron.name = Eisenerzfeld
 items.BF_Field_Copper.name = Kupfererzfeld
 items.BF_Field_Gold.name = Golderzfeld
@@ -192,7 +192,7 @@ items.BF_Copper_Plate.name = Kupferplatte
 items.BF_Stone_Brick.name = Steinziegel
 items.BF_Iron_Gear.name = Eisenzahnrad
 recipeBrowser.fuel = Brennwert: {mj} MJ
-# Forschungen (Region 4, Schritt 4; Daten unter Server/BlockFactory/Research)
+# Research (data under Server/BlockFactory/Research)
 research.BF_Research_Steam_Power.name = Dampfkraft
 research.BF_Research_Steam_Power.unlocks = Wasserpumpe, Wasserkessel, Dampfgenerator, Kleiner Strommast, Automatischer Bohrer, Lampe
 research.BF_Research_Automation.name = Automatisierung
@@ -547,7 +547,7 @@ terminal.record.4.text = Die Steppe war früher grün. Ich bewahre eine Handvoll
 terminal.record.5 = Letzter Eintrag
 terminal.record.5.text = Wenn du das liest, ist der Strom zurück. Dann hat ihn jemand gebaut. Gut. Fang klein an. Das alte Wissen kehrt zurück, eine Schriftrolle nach der anderen.
 
-# Warnungen und Karte (Region 6, Schritt 9)
+# Warnings and map
 warnings.attack = Deine Fabrik wird angegriffen!
 warnings.noAmmo = Ein Geschützturm hat keine Munition mehr
 warnings.trainStuck = Ein Zug steckt fest (kein Brennstoff oder kein Weg)
@@ -584,7 +584,7 @@ map.nestLarge = Großes Nest
 map.attack = Angriff
 cutscene.firstAttackElsewhere = Der erste Angriff auf deine Fabrik hat begonnen. Sieh dir die Szene am Bunkerterminal an.
 
-# Fahrzeuge, Machbarkeitstest (Region 6, Schritt 11)
+# Vehicles
 npc.BF_Test_Buggy.name = Testbuggy
 commands.buggy.desc = Stellt einen Testbuggy vor dich (Fahrzeugtest)
 commands.buggy.spawned = Vor dir steht ein Testbuggy. Benutze ihn, um einzusteigen.
@@ -1004,7 +1004,7 @@ commands.craftqueue.cancelledLast = Letzter Auftrag abgebrochen, Zutaten zurück
 commands.craftqueue.cancelledAll = Alle Aufträge abgebrochen, Zutaten zurück im Inventar.
 
 
-# Status oben links (Ideen)
+# Status panel, top left
 status.header = Forschung & Türme
 status.gob = Gob-Punkte
 status.gol = Gol-Punkte
@@ -1014,7 +1014,7 @@ status.shots = {shots} Schuss
 status.shotsEmpty = {shots} Schuss ({empty} leer)
 status.noTowers = keine Türme
 
-# Anzeige beim Draufschauen auf eine Maschine (Ideen)
+# Info panel when looking at a machine
 machineInfo.line = {text}
 machineInfo.nothing = Stellt nichts her
 machineInfo.product = Stellt {item} her – noch {seconds} s
@@ -1029,7 +1029,7 @@ machineInfo.outputs = Ausgang: {list}
 machineInfo.noOutputs = Ausgang: leer
 machineInfo.stack = {count}× {item}
 
-# Kartenebenen (Ideen)
+# Map layers
 mapLayers.title = Kartenebenen
 mapLayers.info = Auf der Weltkarte für alle in dieser Welt. Grün: an.
 mapLayers.noise = Lärm
@@ -1038,11 +1038,11 @@ mapLayers.nests = Nester
 mapLayers.ruins = Ruinen
 commands.maplayers.desc = Öffnet die Kartenebenen: Lärm, Stromleitungen, Nester, Ruinen
 
-# Underground Pipes T2, T3 (Ideen)
+# Underground Pipes T2, T3
 items.BF_Underground_Pipe_T2.name = Untergrundrohr T2
 items.BF_Underground_Pipe_T3.name = Untergrundrohr T3
 
-# Musik (E-71, aus tools/music_tracks.py)
+# Music (E-71, written by tools/music_tracks.py)
 music.BF_Track_Beyond_The_Event_Horizon_1.name = Beyond The Event Horizon 1
 music.BF_Track_Beyond_The_Event_Horizon_2.name = Beyond The Event Horizon 2
 music.BF_Track_Clockwork_Flow_1.name = Clockwork Flow 1

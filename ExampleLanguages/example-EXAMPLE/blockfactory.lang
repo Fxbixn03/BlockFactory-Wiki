@@ -1,4 +1,4 @@
-# BlockFactory, Referenzsprache en-US (E-24). Schluessel: blockfactory.<Zeile>
+# BlockFactory, reference language en-US. Keys: blockfactory.<line>
 items.BF_Field_Iron.name = 
 items.BF_Field_Copper.name = 
 items.BF_Field_Gold.name = 
@@ -192,7 +192,7 @@ items.BF_Copper_Plate.name =
 items.BF_Stone_Brick.name = 
 items.BF_Iron_Gear.name = 
 recipeBrowser.fuel = 
-# Forschungen (Region 4, Schritt 4; Daten unter Server/BlockFactory/Research)
+# Research (data under Server/BlockFactory/Research)
 research.BF_Research_Steam_Power.name = 
 research.BF_Research_Steam_Power.unlocks = 
 research.BF_Research_Automation.name = 
@@ -547,7 +547,7 @@ terminal.record.4.text =
 terminal.record.5 = 
 terminal.record.5.text = 
 
-# Warnungen und Karte (Region 6, Schritt 9)
+# Warnings and map
 warnings.attack = 
 warnings.noAmmo = 
 warnings.trainStuck = 
@@ -584,7 +584,7 @@ map.nestLarge =
 map.attack = 
 cutscene.firstAttackElsewhere = 
 
-# Fahrzeuge, Machbarkeitstest (Region 6, Schritt 11)
+# Vehicles
 npc.BF_Test_Buggy.name = 
 commands.buggy.desc = 
 commands.buggy.spawned = 
@@ -1004,7 +1004,7 @@ commands.craftqueue.cancelledLast =
 commands.craftqueue.cancelledAll = 
 
 
-# Status oben links (Ideen)
+# Status panel, top left
 status.header = 
 status.gob = 
 status.gol = 
@@ -1014,7 +1014,7 @@ status.shots =
 status.shotsEmpty = 
 status.noTowers = 
 
-# Anzeige beim Draufschauen auf eine Maschine (Ideen)
+# Info panel when looking at a machine
 machineInfo.line = 
 machineInfo.nothing = 
 machineInfo.product = 
@@ -1029,7 +1029,7 @@ machineInfo.outputs =
 machineInfo.noOutputs = 
 machineInfo.stack = 
 
-# Kartenebenen (Ideen)
+# Map layers
 mapLayers.title = 
 mapLayers.info = 
 mapLayers.noise = 
@@ -1038,11 +1038,11 @@ mapLayers.nests =
 mapLayers.ruins = 
 commands.maplayers.desc = 
 
-# Underground Pipes T2, T3 (Ideen)
+# Underground Pipes T2, T3
 items.BF_Underground_Pipe_T2.name = 
 items.BF_Underground_Pipe_T3.name = 
 
-# Musik (E-71, aus tools/music_tracks.py)
+# Music (E-71, written by tools/music_tracks.py)
 music.BF_Track_Beyond_The_Event_Horizon_1.name = 
 music.BF_Track_Beyond_The_Event_Horizon_2.name = 
 music.BF_Track_Clockwork_Flow_1.name = 
