@@ -43,6 +43,12 @@ Thank you to everyone who helps! Add yourself in your pull request.
 
 <!-- - French (fr-FR): @your-github-name -->
 
+Everyone whose pull request was merged:
+
+<a href="https://github.com/Fxbixn03/BlockFactory-Wiki/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Fxbixn03/BlockFactory-Wiki" alt="Contributors" />
+</a>
+
 ## License
 
 This repository is licensed under the [MIT License](LICENSE). By contributing, you license your contribution
